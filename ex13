@@ -1,0 +1,6 @@
+def in_range(num, start, end):
+    return start <= num <= end
+
+num = int(input("Enter a number: "))
+start, end = map(int, input("Enter range (start end): ").split())
+print("In range:", in_range(num, start, end))
